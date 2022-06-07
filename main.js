@@ -8,6 +8,7 @@ uni.$http = $http
 
 //请求的根路径
 $http.baseUrl = 'https://api-ugo-web.itheima.net'
+// $http.baseUrl = 'https://applet-base-api-t.itheima.net' 
 $http.beforeRequest = function(options){
   uni.showLoading({
     title:'数据加载中'
